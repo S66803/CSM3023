@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Loan Calculator</title>
+</head>
+    <body>
+     <h1>Perform Car Loan Calculation</h1>
+        <form action="processCalculateCarLoan.jsp" method="POST">
+            <fieldset>
+                <legend>Loan Calculation</legend>
+                    <label>Loan Amount:*</label>
+                        <input type="number" name="amount" placeholder="amount" required>
+                        <br>
+                        <label>Period:</label>
+                        <select name="period">
+                            <option value="3">3 Years</option>
+                            <option value="4">4 years</option>
+                            <option value="5">5 Years</option>
+                            <option value="7">7 Years</option>
+                        </select>
+                        <br>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+            </fieldset>
+         </form>
+    </body>
+    <br/>
+        <footer>&copy2024-Muhd Imran</footer>
+</html>
