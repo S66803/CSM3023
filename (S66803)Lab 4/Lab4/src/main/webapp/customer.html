@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Using JSP Scripting</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Use JSP Scriplet and JSP Expression in Application</h1>
+        <h2 style="color: purple;">Customer Discount</h2>
+        <div>
+            <form action="processCustomer.jsp" method="POST">
+                <div>
+                    <label>Customer Code</label>:
+                    <input type="text" name="cust_code" placeholder="Key-in customer code" required>
+                </div><br>
+                <div>
+                    <label>Quantity</label>:
+                    <input type="text" name="quantity" placeholder="Key-in quantity" required>
+                </div><br>
+                <div>
+                    <label>Customer type</label>:
+                    <input type="radio" name="cust_type" value="1" checked> Normal Customer &nbsp;
+                    <input type="radio" name="cust_type" value="2"> Privilege Customer
+                </div><br>
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </form>
+        </div><br>
+        <footer>&copy; 2024-Muhd Imran</footer>
+    </body>
+</html>
